@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test" parallel="tests">
+
+		<parameter name="mail1" value="Prabha"></parameter>
+		<parameter name="password1" value="12345"></parameter>
+		<parameter name="email" value="java"></parameter>
+		<parameter name="pass" value="selenium"></parameter>
+		<parameter name="hi" value="karan"></parameter>
+		<parameter name="hello" value="67890"></parameter>
+		<classes>
+			<class name="assertion.Parmeter" />
+			<class name="assertion.Prnew" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
